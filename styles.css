@@ -273,8 +273,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     border: 2px solid #c99300;
     transition: all 0.5s ease-in-out;
 }
-.market-analysis-image{
-    width: 100%;
+.market-analysis-image {
+    margin-right: 15px;
 }
 .market-analysis-heading{
     padding: 44px 0 30px 0;
@@ -413,17 +413,4 @@ table.invoice-header {
 }
 .invoice-heading{
     padding: 0 30px;
-}
-
-@media screen and (max-width: 575px) {
-    .market-analysis-image {
-        width: 190px;
-        height: auto;
-    }
-    .analysis-blog {
-        padding: 0px 0 0px 7px;
-    }
-    .market-analysis-item{
-        margin-top: 8px;
-    }
 }
