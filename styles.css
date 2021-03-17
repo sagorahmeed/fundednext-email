@@ -414,3 +414,10 @@ table.invoice-header {
 .invoice-heading{
     padding: 0 30px;
 }
+
+@media screen and (max-width: 575px) {
+    .market-analysis-image {
+        width: 190px;
+        height: auto;
+    }
+}
