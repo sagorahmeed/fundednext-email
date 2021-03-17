@@ -176,6 +176,9 @@ img{
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Rubik', sans-serif;
 }
+.money-section-image {
+    width: 100%;
+}
 .money-section-heading{
     font-size: 18px;
     font-weight: 600;
@@ -345,11 +348,12 @@ tr td table tr .djfjdskf{
     margin-top: 18px;
     position: relative;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 23px;
 }
 .check-image {
     position: absolute;
     left: -1%;
+    margin-left: 3px;
 }
 .menu--item{
     margin: 0;
@@ -368,4 +372,41 @@ tr td table tr .djfjdskf{
 
 table thead tr td h1{
     text-align: right;
+}
+.invoice-card {
+    border:1px solid #A6B1BE;
+   
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.invoice-top-heading {
+  
+    background-color:#181816;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+table.invoice-header {
+   
+}
+
+.info-title{
+    margin: 0;
+    color: rgba(24, 24, 22, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: 'Inter', sans-serif;
+}
+.info-desc{
+    margin: 0;
+    font-size: 15px;
+    color: rgba(81, 81, 81, 1);
+    font-style: italic;
+    line-height: 18.15px;
+    font-weight: 300;
+    padding-left: 42px;
+}
+.invoice-heading{
+    padding: 0 30px;
 }
