@@ -426,7 +426,8 @@ tr td table tr .djfjdskf {
 .info-heading::after {
     content: "";
     position: absolute;
-    border: 1px solid #a6b1be;
+    background-color:#a6b1be;
+    height: 2px;
     width: 80%;
     bottom: -50%;
     left: 5%;
@@ -461,7 +462,8 @@ tr td table tr .djfjdskf {
 .invoice-card-body::after {
     content: "";
     position: absolute;
-    border: 1px solid #a6b1be;
+    background-color:#a6b1be;
+    height: 2px;
     width: 90%;
     bottom: -3%;
     left: 5%;
@@ -472,7 +474,8 @@ tr td table tr .djfjdskf {
 .prod-blog::after {
     content: "";
     position: absolute;
-    border: 1px solid #a6b1be;
+    background-color:#a6b1be;
+    height: 2px;
     width: 90%;
     bottom: -3%;
     left: 5%;
