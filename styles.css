@@ -370,50 +370,54 @@ tr td table tr .djfjdskf{
     top: 6px;
 }
 .invoice-card{
-    border: 1px solid rgba(166, 177, 190, 1);
+    border: 1px solid gray;
+    width: 100%;
     border-radius: 10px;
 }
 .invoice-top-header{
-    background-color: rgba(24, 24, 22, 1);
-    width: 100%;
-    padding: 0 30px;
-    height: 129px;
+    background-color: black;
+    border-top-left-radius:10px;
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-.invoice-main-header{
-    padding: 0 30px;
-    width: 100%;
-}
-.header{
-    width: 100%;
     padding: 0 30px;
 }
-.info-header {
-    margin: 0;
-    padding: 30px 0 15px;
+.info-heading{
+    width: 100%;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
     position: relative;
+    padding-bottom: 5px;
+    margin:30px 0 18px 0;
 }
-.info-header::before{
+.info-heading::after {
     content: '';
     position: absolute;
-    background-color: gray;
-    height: 2px;
-    width: 100%;
-    bottom: 5px;
+    border: 1px solid #A6B1BE;
+    width: 79%;
+    bottom: -50%;
+    left: 5%;
 }
-.tablerow h3{
+.invoice-header{
+    width: 100%;
+    padding: 0 30px;
+}
+.info-title {
     margin: 0;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
+    line-height: 38px;
+    font-style: normal;
+    color: rgba(24, 24, 22, 1);
     font-family: 'Inter', sans-serif;
-    line-height: 37px;
 }
-.tablerow p{
-    margin: 0;
+.info-desc{
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 15px;
-    line-height: 18.15px
+    font-style: 15px;
+    line-height: 18.15px;
+    margin: 0;
+    padding-left: 42px;
 }
